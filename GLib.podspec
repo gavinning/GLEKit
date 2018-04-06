@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/gavinning/GLib"
   s.license      = "MIT"
   s.author       = { "gavinning" => "ningyubo@gmail.com" }
-  s.source       = { :git => "https://github.com/gavinn∂ing/GLib.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/gavinning/GLib.git", :tag => s.version }
   s.framework    = "UIKit"
-  s.source_files = "Source/*.swift"
+  s.source_files = "GLib/Source/*.swift"
   
 end

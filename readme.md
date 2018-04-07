@@ -1,10 +1,10 @@
-GLib
+GLEKit
 ---
 一些基础扩展
 
 ### Install
 ```sh
-pod install GLib
+pod install GLEKit
 ```
 
 ### Usage

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  GLib
+//  GLEKit
 //
 //  Created by gavinning on 2018/4/6.
 //  Copyright © 2018年 gavinning. All rights reserved.

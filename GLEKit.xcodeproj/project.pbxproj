@@ -11,6 +11,7 @@
 		F00A4ECE2078E95400139859 /* extensionForString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A4ECA2078E95400139859 /* extensionForString.swift */; };
 		F00A4ECF2078E95400139859 /* extensionForUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A4ECB2078E95400139859 /* extensionForUIImageView.swift */; };
 		F00A4ED02078E95400139859 /* extensionForUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A4ECC2078E95400139859 /* extensionForUIColor.swift */; };
+		F00A4ED72079EBA300139859 /* lib.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00A4ED62079EBA300139859 /* lib.swift */; };
 		F0BE0B142078E885001790F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE0B132078E885001790F5 /* AppDelegate.swift */; };
 		F0BE0B162078E885001790F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BE0B152078E885001790F5 /* ViewController.swift */; };
 		F0BE0B192078E885001790F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BE0B172078E885001790F5 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		F00A4ECA2078E95400139859 /* extensionForString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = extensionForString.swift; path = Sources/extensionForString.swift; sourceTree = SOURCE_ROOT; };
 		F00A4ECB2078E95400139859 /* extensionForUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = extensionForUIImageView.swift; path = Sources/extensionForUIImageView.swift; sourceTree = SOURCE_ROOT; };
 		F00A4ECC2078E95400139859 /* extensionForUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = extensionForUIColor.swift; path = Sources/extensionForUIColor.swift; sourceTree = SOURCE_ROOT; };
+		F00A4ED62079EBA300139859 /* lib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lib.swift; sourceTree = "<group>"; };
 		F0BE0B102078E885001790F5 /* GLEKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GLEKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BE0B132078E885001790F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0BE0B152078E885001790F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		F00A4ED12078EC7700139859 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				F00A4ED62079EBA300139859 /* lib.swift */,
 				F00A4EC92078E95400139859 /* extensionForArray.swift */,
 				F00A4ECA2078E95400139859 /* extensionForString.swift */,
 				F00A4ECC2078E95400139859 /* extensionForUIColor.swift */,
@@ -158,6 +161,7 @@
 				F0BE0B162078E885001790F5 /* ViewController.swift in Sources */,
 				F00A4ECD2078E95400139859 /* extensionForArray.swift in Sources */,
 				F00A4ECE2078E95400139859 /* extensionForString.swift in Sources */,
+				F00A4ED72079EBA300139859 /* lib.swift in Sources */,
 				F0BE0B142078E885001790F5 /* AppDelegate.swift in Sources */,
 				F00A4ECF2078E95400139859 /* extensionForUIImageView.swift in Sources */,
 				F00A4ED02078E95400139859 /* extensionForUIColor.swift in Sources */,

@@ -7,7 +7,34 @@ GLEKit
 pod install GLEKit
 ```
 
+### Requirements
+* iOS 9.0+
+* Swift 4.0+
+
 ### Usage
+```swift
+// GLE
+
+// 延迟
+GLE.delay(1.0) {
+    // do sth
+}
+
+// 根据某个view查询root ViewController
+let rootViewController = GLE.findRootViewController(by: [:UIView])
+
+// 简单的日期格式化
+let com = GLE.dateFormat("2016-16-18 18:00:00", dateFormat: "yyyy-MM-dd HH:mm:ss")
+com.year
+com.month
+com.day
+com.hour
+com.minute
+com.second
+
+// 查询某个view的剩余空间
+let size = GLE.remainderSize(from: [:UIView])
+```
 
 ```swift
 // For Array

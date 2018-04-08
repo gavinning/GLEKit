@@ -63,6 +63,10 @@ class ViewController: UIViewController {
         print(rd == "Hel")
         print(s3 == "lo swift!")
         print("----------------------")
+        
+        print(view.frame)
+        print(view.remainder)
+        print()
     }
 
     override func didReceiveMemoryWarning() {
